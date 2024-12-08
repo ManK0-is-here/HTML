@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.lvl_0{
+    border: 1px solid;
+    display:flex ;
+    /* flex-direction: row-reverse; */
+    width: 600px;
+    margin: 200px auto;
+    justify-content: center;
+    gap: 20px;
+    height: 400px;
+    align-items: center;
+    flex-direction: column;
+}
+.lvl_0>div{
+    padding: 15px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lvl_0 .lvl_0_one{
+    background: #ffc6cf;
+}
+.lvl_0 .lvl_0_two{
+    background: #75ccff;
+}
+.lvl_0 .lvl_0_three{
+    background: #75ff8b;
+}
+.lvl_0 .lvl_0_four{
+    background: #7560ff;
+}
+/* --------- */
+.lvl_1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 2px solid;
+    padding: 30px;
+    margin: 100px;
+}
+.lvl_1 img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+.lvl_1 .lvl_1_box{
+    display: flex;
+    gap: 15px;
+}
+.lvl_1 .lvl_1_box .text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.lvl_1 .lvl_1_box .text p{
+    text-indent: 20px;
+    font: weight 500px;
+    font-size: 17px;
+}

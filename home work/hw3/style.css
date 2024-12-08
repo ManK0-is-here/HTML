@@ -1,0 +1,23 @@
+*{
+    margin: 6px;
+}
+.first_value{
+    list-style-type: upper-roman;
+    
+}
+.second_value{
+    list-style-type: decimal;
+}
+.third_value{
+    list-style-type:lower-alpha;
+}
+span{
+    color: rgb(50, 50, 250);
+    font-weight:normal
+}
+li{
+    font-weight: bold;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,18 @@
+.Tabl2 table{
+    border-collapse: collapse ;
+}
+.Tabl2 td, tr:nth-last-child(odd){
+    height: 30px;
+    width: 70px;
+    background-color: rgba(141, 146, 151, 0.171);
+    padding: 10px;
+    text-align: center;
+    
+}
+.Tabl2 th{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(183, 215, 255);
+    font-family:'Times New Roman';
+    padding: 10px;
+}

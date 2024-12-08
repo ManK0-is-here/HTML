@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.lvl_1{
+    background-color: rgb(0, 192, 147);
+    border: 2px solid;
+    margin: 50px;
+    padding: 50px;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    gap: 20px; 
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+    /* grid-template-columns: 1fr 4fr 10fr */
+    /* grid-template-rows: repeat(3, 70px);*/
+     grid-template-rows: repeat(3, minmax(30px,120px));
+}
+.lvl_1 div{
+    background-color: rgb(25, 250, 0);
+    padding: 20px;
+}
+.lvl_1 div:nth-child(1){
+    background-color: rgb(255, 174, 0) ;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 2;
+    /* z-index: 1; */
+}
+.lvl_1 div:nth-child(6){
+    background-color: rgb(200, 0, 255) ;
+    grid-row: 2 / span 2;
+    grid-column: 2 ;
+    /* z-index: 1; */
+}
+.lvl_1 div:nth-child(8){
+    background-color: rgb(103, 75, 110) ;
+    grid-row: 3 / span 1;
+    grid-column: 2 ;
+    /* z-index: 1; */
+}
+/* -------------- */
+.lvl_2{
+    background-color: rgba(128, 128, 128, 0.267);
+    border: 1px solid;
+    margin: 50px;
+    padding: 50px;
+    display: grid;
+    gap: 20px; 
+    grid-template-columns: 1fr 3fr 1fr;
+    
+    column-gap: 10px;
+}
+.lvl_2 img{
+    width: 70px;
+}
+.lvl_2 div:nth-child(1){
+    grid-column: 1;
+    grid-row: 1;
+}
+.lvl_2 div:nth-child(2){
+    grid-column: 1;
+    grid-row: 3;
+}
+.lvl_2 div:nth-child(3){
+    grid-column: 1;
+    grid-row: 5;
+}
+.lvl_2 div:nth-child(4){
+    grid-column: 3;
+    grid-row: 2;
+}
+.lvl_2 div:nth-child(5){
+    grid-column: 3;
+    grid-row: 4;
+}
+.lvl_2 div:nth-child(6){
+    grid-column: 3;
+    grid-row: 6;
+}
+.lvl_2 div:nth-child(7){
+    grid-column: 2;
+    grid-row: 1;
+}
+.lvl_2 div:nth-child(8){
+    grid-column: 2;
+    grid-row: 3;
+}
+.lvl_2 div:nth-child(9){
+    grid-column: 2;
+    grid-row: 5;
+}
+.lvl_2 div:nth-child(10){
+    grid-column: 2;
+    grid-row: 2;
+}
+.lvl_2 div:nth-child(11){
+    grid-column: 2;
+    grid-row: 4;
+}
+.lvl_2 div:nth-child(12){
+    grid-column: 2;
+    grid-row: 6;
+    
+}
+.lvl_2 .text_girl{
+    padding: 20px;
+    font-size: 15pt;
+    line-height: 20px;
+    background-color: pink;
+    border-radius: 20px 20px 20px 0;
+}
+.lvl_2 .text_boy{
+    padding: 20px;
+    font-size: 15pt;
+    line-height: 20px;
+    background-color: rgb(65, 6, 183);
+    border-radius: 20px 20px 0 20px;
+}
+.lvl_2 .girls, .boys{
+    display: flex;
+    gap: 20px;
+}
+.lvl_2 .girls{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+.lvl_2 .girl_name, .lvl_2 .boy_name{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}

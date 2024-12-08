@@ -1,0 +1,7 @@
+.r {
+    list-style-type:none ;
+    list-style-image: url(Winter.png);
+    /* list-style-image: inherit; */
+    /* list-style-image: initial; */
+    /* list-style-image: unset; */
+}

@@ -1,0 +1,17 @@
+.lvl_0 .list_0{
+    list-style-type: decimal-leading-zero;
+}
+.lvl_0 .list_1{
+    list-style-type:lower-alpha;
+    color:  #4682B4 ;
+}
+.lvl_0 .list_2{
+    list-style-type: upper-roman;
+    color:blueviolet;
+}
+.color ul{
+    list-style-type: upper-roman;
+}
+.color ul span{
+    color: rgb(211, 46, 137);
+}
